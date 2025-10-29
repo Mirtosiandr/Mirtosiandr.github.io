@@ -39,7 +39,7 @@ function calculate() {
     else {
         result = firstElement % secondElement;
     }
-    document.getElementById("result").textContent = "Результат: " + result;
+    document.getElementById("result").textContent = "Result: " + result;
 }
 function toggleInput() {
     let operand = document.getElementById("operand").value;
@@ -58,4 +58,5 @@ function fact(n) {
         res *= i;
     }
     return res;
+
 }
