@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header {
+    background-color: #504d4d43;
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+}
+.main {
+    background-color: #98e898;
+    padding: 20px;
+    text-align: center;
+    height: 60vh;
+}
+.inputFirst {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.inputSecond {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.inputField {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(220, 255, 166);
+    border-radius: 100px;
+    border: none;
+    font-size: 30px;
+    color: gray;
+    transition: background-color 0.3s ease;
+}
+.inputField:focus {
+    background-color:  rgb(186, 240, 136);
+}
+.inputField:hover {
+    background-color:  rgb(186, 240, 136);
+}
+.buttonDiv {
+    margin-top: 50px;
+}
+.calculateButton {
+    padding: 20px 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 17px;
+}
+.calculateButton:hover {
+    background-color: #0d5304;
+}
+.operandSelectionText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.operandSelection {
+    font-size: 17px;
+    width: 100px;
+    border: none;
+    background-color: rgb(220, 255, 166);
+    color: gray;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.operandSelection:hover {
+    background-color: rgb(186, 240, 136);
+}
+.operandSelection:focus {
+    background-color: rgb(186, 240, 136);   
+}

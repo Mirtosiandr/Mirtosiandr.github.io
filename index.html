@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор Онлайн</title>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <p>Добро пожаловать в Калькулятор!</p>
+        <p>Прежде чем приступить к Калькулятору, помните что сперва нужно ввести значения и операнды, и ТОЛЬКО ПОТОМ нажать на кнопку!!!</p>
+    </header>
+    <div class="main">
+        <h3 class="inputFirst">Введите первое значение (n): </h3>
+        <input class="inputField" type="number" id="firstInput">
+        <h3 class="inputSecond">Введите второе значение (k):</h3>
+       <input class="inputField" type="number" id="secondInput">
+        <h3 class="operandSelectionText">Выберите Операнд:</h3>
+        <select class="operandSelection" name="operand" id="operand" onclick="toggleInput()">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+            <option value="mod">%</option>
+            <option value="fact">!</option>
+            <option value="sqrt">√</option>
+            <option value="CISNPOK">C</option>
+            <option value="PISN">P</option>
+            <option value="AISNPOK">A</option>
+        </select>
+        <div class="buttonDiv"><button class="calculateButton" onclick="calculate()">Выполнить операцию</button></div>
+        <h4 class="result" id="result"></h4>
+    </div>
+</body>
+</html>
