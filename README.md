@@ -1,0 +1,1 @@
+A simple, 2-variable calculator. Made in July 2023. Features basic operands such as adding, subtracting, multiplying, and dividing, in addition to complex ones, like the modulo operator, factorial, combination, and permutation.
